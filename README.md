@@ -17,15 +17,15 @@ the text.
 For custom slots, the slot name is whatever is between the # pound sign and the { opening bracket.
 They are passed whatever is specified in the {curly brackets} in standard JS object format.
 
-You can choose to use simple single quotes ' instead of \" escaped double quotes in your
+You can choose to use simple single quotes ' instead of \\" escaped double quotes in your
 JSON translation file. Also, single or double quotes around object keys are optional.
 Whitespace after the opening bracket { and before the closing curly bracket } as well as
 after commas , is allowed.
 
 If you want to include ' or " characters in your object value strings, it depends on if you're using
 single or double quotes around your values. If you're using single quotes, single quotes should be
-escaped \' and double quotes should be escaped as well \". If you're using double (escaped) quotes,
-single quotes will be just ' and double quotes will be \\" double escaped.
+escaped \\' and double quotes should be escaped as well \\". If you're using double (escaped) quotes,
+single quotes will be just ' and double quotes will be \\\\" double escaped.
 
 This also works together with i18n's string interpolation feature!
 
